@@ -1,0 +1,37 @@
+settings:
+    output_folder: "out/"
+    image_path: "images/"
+    audio_path: "audio/"
+
+common:
+    title: "Hörspur"
+    home: "/"
+    imprint: "/#impressum"
+    privacy: "/#datenschutz"
+
+pages:
+    test_1:
+        width: 1501
+        height: 1061
+        image: "sample.png"
+        info:
+            item:
+                selector: sample_item
+                audio: "item_1.mp3"
+            anotheritem:
+                selector: sample_anotheritem
+                audio: "anotheritem_1.mp3"
+
+    
+    test_1:
+        width: 1501
+        height: 1061
+        image: "sample2.png"
+        info:
+            obj:
+                selector: sample2_obj
+                audio: "obj_1.mp3"
+            anotherobj:
+                selector: sample2_anotherobj
+                audio: "anotherobj_1.mp3"
+            

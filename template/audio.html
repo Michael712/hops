@@ -1,0 +1,11 @@
+
+	<div id="overlay_%ITEM%" class="audio_overlay" onclick="audio_stop(event, '%ITEM%')">
+		<audio id="audio_%ITEM%">
+			<source src="%AUDIOFILE%" type="audio/mpeg" />
+		</audio>
+		<div id="audioplayer_%ITEM%" class="audio_player" onclick="event.stopPropagation();">
+            <div class="audio_rewind" onclick="audio_rewind(event, '%ITEM%')"></div>
+            <div id="btn_playpause_%ITEM%" class="audio_pause" onclick="audio_playpause(event, '%ITEM%')"></div>
+            <div class="audio_stop" onclick="audio_stop(event, '%ITEM%')"></div>
+		</div>
+	</div>
